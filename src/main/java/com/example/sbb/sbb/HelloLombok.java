@@ -1,4 +1,4 @@
-package com.example.sbb;
+package com.example.sbb.sbb;
 
 import lombok.Getter;
 import lombok.Setter;

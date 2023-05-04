@@ -1,9 +1,9 @@
-package com.example.sbb;
+package com.example.sbb.sbb.Question;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
 import java.util.List;
 
+import com.example.sbb.sbb.Answer.Answer;
 import jakarta.persistence.*;
 
 import lombok.Getter;
