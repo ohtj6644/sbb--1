@@ -1,14 +1,13 @@
-package com.example.sbb.sbb.Answer;
+package com.example.sbb.Answer;
 
-import com.example.sbb.sbb.Question.Question;
-import com.example.sbb.sbb.Question.QuestionService;
+import com.example.sbb.Question.Question;
+import com.example.sbb.Question.QuestionService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import jakarta.validation.Valid;
 import org.springframework.validation.BindingResult;
 @RequestMapping("/answer")

@@ -1,4 +1,4 @@
-package com.example.sbb.sbb;
+package com.example.sbb;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

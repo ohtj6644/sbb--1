@@ -1,4 +1,4 @@
-package com.example.sbb.sbb.Answer;
+package com.example.sbb.Answer;
 
 import jakarta.validation.constraints.NotEmpty;
 
