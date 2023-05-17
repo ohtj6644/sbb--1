@@ -4,7 +4,10 @@ import com.example.sbb.Question.Question;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import com.example.sbb.user.SiteUser;
 import org.springframework.data.annotation.CreatedDate;
+import java.util.Set;
+import jakarta.persistence.ManyToMany;
 
 import java.time.LocalDateTime;
 
@@ -22,4 +25,11 @@ public class Answer {
     private LocalDateTime createDate;
 @ManyToOne
     private Question question;
+
+    @ManyToOne
+    private SiteUser author;
+    private LocalDateTime modifyDate;
+
+    @ManyToMany
+    Set<SiteUser> voter;
 }
