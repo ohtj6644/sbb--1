@@ -43,6 +43,7 @@ dependencies {
 	implementation 'org.springframework:spring-context-support:6.0.10'
 	implementation 'javax.activation:activation:1.1.1'
 	runtimeOnly 'com.h2database:h2'
+	runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
 }
 
 tasks.named('test') {
